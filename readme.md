@@ -25,17 +25,17 @@ References:
 Contact Us: <br>
 - https://www.behance.net/gallery/197615179/Contact-us?tracking_source=search_projects|contact+us+web+design&l=0
 - https://www.behance.net/gallery/81624303/Contact-Us-Page?tracking_source=search_projects|contact+us+web+design&l=30
-
+<br>
 Footer: <br>
 https://dribbble.com/shots/21477067-20-Footer-References
-
+<br>
 Products: <br>
 - https://www.behance.net/gallery/199419901/Organic-Tea-website-homepage?tracking_source=search_projects|products+web+design&l=53
 - https://www.behance.net/gallery/197234131/Shopify-Beauty-brand-ecommerce-storewebsite-design?tracking_source=search_projects|products+web+design&l=0
-
+<br>
 Category.JS Script: <br>
 https://youtu.be/hEs3IL6UyvE?si=s91ef1JU-oJdqBke
-
+<br>
 Recipes: <br>
 https://jcodonuts.com/id/en/menu/jcoffee
 
