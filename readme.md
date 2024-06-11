@@ -2,7 +2,7 @@ This web serves as an Assignment Project for Human Computer Interaction LAB Cour
 
 NOTES: This web is only made for the Front-End side only, or a HI-FI prototype
 
-The Page that you can explore are:
+The Pages that you can explore are:
 
 Main: Simple Landing Page, contains best seller product and best recipe
 Products: Displays Products with filter button, each for adult and child category respectively
