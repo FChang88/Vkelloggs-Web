@@ -1,0 +1,151 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; 
+}
+
+
+body{
+    margin:0;
+    padding:0;
+}
+
+
+.bestsellertitle{
+    color:red;
+    font-family: system-ui;
+    flex-direction: row;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.maindisplay{
+    background-color: beige;
+    width: inherit;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    flex-direction: row;
+    padding-bottom: 5%;
+    
+}
+
+.bestproduct{
+padding-top: 8%;
+width: 390px;
+height: auto;
+margin-left: 10%;
+}
+
+.td1{
+padding-top: 10%;
+width: 50%;
+font-family : system-ui;
+}
+
+.t1{
+    margin-top:0%;
+    font-size: 50px;
+    font-weight: bold;
+    color: #d12347;
+    margin-bottom: 2%;
+}
+
+.d1{
+    margin-top: 0%;
+    font-weight: bold;
+    font-family: system-ui;
+    font-size: 20px;
+}
+/* 
+.clickhere{
+    background-color:#d12347;
+    padding: 15px 20px;
+    border-style: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+.clickhere:hover {
+    background-color: #ff0000;
+    padding: 15px 20px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.clickhere a:visited{
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.clickhere a, .clickhere a:hover, .clickhere:link{
+    text-decoration: none;
+}
+
+ */
+
+ @media screen and (max-width: 1024px) {
+   
+    .bestproduct{
+        width: auto;
+        height: 400px;
+        padding-right: 10%;
+        margin-top: 4%;
+    }
+
+
+}
+@media screen and (max-width: 900px) {
+    .bestproduct{
+        width: auto;
+        height: 500px;
+        padding-right: 10%;
+    }
+    .d1{
+        margin-top: 20px;
+        font-size: 18px;
+        width: 300px;
+    }
+
+    .td1{
+        padding-left: 20%;
+    }
+
+}
+
+@media screen and (max-width: 568px) {
+    
+    .maindisplay{
+        flex-direction: column
+    }
+    .bestproduct{
+        order:-1;
+        width: auto;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .d1{
+        margin-top: 20px;
+        font-size: 14px;
+        width: 300px;
+    }
+
+    .td1{
+        padding-left: 0;
+    }
+}
+

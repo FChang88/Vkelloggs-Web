@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VKelloggs</title>
+    <link rel="stylesheet" href="../CSS/Components/navbar.css">
+    <link rel="shortcut icon" href="../Assets/LogoNavbar.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/ProductsContent.css">
+    <link rel="stylesheet" href="../CSS/Components/Footer.css">
+</head>
+
+<body>
+    <header>
+        <!-- Ini Bagian Navbar-->
+        <nav class="navbar">
+            <a href="Main.html"><img src="../Assets/LogoNavbar.png" class="logo"></a>
+            <div class="navigations">
+                <a href="Products.html" class="menu">Products</a>
+                <a href="AboutUs.html" class="menu">About Us</a>
+                <a href="Recipes.html" class="menu">Recipes</a>
+                <a href="ContactUs.html" class="menu">Contact Us</a>
+            </div>
+        <div class="burger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        </div>
+    </nav>
+    <div class="mobile-menu">
+        <a href="Products.html" class="menu">Products</a>
+        <a href="AboutUs.html" class="menu">About Us</a>
+        <a href="Recipes.html" class="menu">Recipes</a>
+        <a href="ContactUs.html" class="menu">Contact Us</a>
+    </div>
+    </header>
+    <main>
+
+        <div class="maincontent">
+            <img src="../Assets/ProductsStockImage.png" class="mainbg">
+            <h1 class="maintitle"> Our Products </h1>
+            <p class="about">Our breakfast cereals are made with whole grains, vitamins, and minerals, providing a
+                healthy and satisfying start to your day. <br>
+                Each cereal is carefully formulated to offer a variety of flavors, from timeless classics to exciting
+                new tastes, all loved by families worldwide. <br>
+                Our snacks, including crunchy granola bars and savory bites, are designed for convenience and nutrition,
+                perfect for on-the-go lifestyles.
+                <br> Every product reflects VKellogg's dedication to excellence, making each meal a delightful
+                experience.
+            </p>
+            </p>
+
+            <!--  harus ada js, buat kalo misalnya lagi adult atau misalnya lagi child -->
+
+            <div class="categorychange"> 
+                <button class="category" onclick="switchcategory('Adult')">Adult</button>
+                <button class="category" onclick="switchcategory('Child')">Child</button>
+            </div>
+            <!-- ini masih baru adult product -->
+            <div class="productsgrid">
+                <div class="grid">
+                    <img src="../Assets/Vkellog'soatflakes.png" class="gridimage">
+                    <div class="gridtd">
+                        <p class="gridtitle"> Vkellogg's Oatflakes</p>
+                        <p class="griddesc"> The ol' classic cereal </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <img src="../Assets/Vkellogg'scheer.png" class="gridimage">
+                    <div class="gridtd">
+                        <p class="gridtitle"> Vkellogg's Cheers</p>
+                        <p class="griddesc"> The ol' classic cereal </p>
+                    </div>
+                    
+                </div>
+                <div class="grid">
+                    <img src="../Assets/Vkellogg'scornflakes.png" class="gridimage">
+                    <div class="gridtd">
+                        <p class="gridtitle"> Vkellogg's Cornflakes</p>
+                        <p class="griddesc"> The ol' classic cereal </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <img src="../Assets/copops.png" class="gridimage">
+                    <div class="gridtd">
+                        <p class="gridtitle"> Vkellogg's CoPops</p>
+                        <p class="griddesc"> The ol' classic cereal </p>
+                    </div>
+
+                </div>
+                <div class="grid-child">
+                    <img src="../Assets/Vkellogg'sLoCharms.png" class="gridimage">
+                    <div class="gridtd">
+                        <p class="gridtitle"> Vkellogg's LoCharms</p>
+                        <p class="griddesc"> The ol' classic cereal </p>
+                    </div>
+                </div>
+                <div class="grid-child">
+                    <img src="../Assets/Vkellogg'sFruitLoops.png" class="gridimage">
+                    <div class="gridtd">
+                        <p class="gridtitle"> Vkellogg's FruitLoops</p>
+                        <p class="griddesc"> The ol' classic cereal </p>
+                    </div>
+                    
+                </div>
+                <div class="grid-child">
+                    <img src="../Assets/CocoPuf.png" class="gridimage">
+                    <div class="gridtd">
+                        <p class="gridtitle"> Vkellogg's Cheers</p>
+                        <p class="griddesc"> The ol' classic cereal </p>
+                    </div>
+                    
+                </div>
+                <div class="grid-child">
+                    <img src="../Assets/VKellogg'sspongesquarepants.png" class="gridimage">
+                    <div class="gridtd">
+                        <p class="gridtitle"> Vkellogg's SpongeSquarePants</p>
+                        <p class="griddesc"> The ol' classic cereal </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <footer>
+        <div class="parts">
+            <div class="leftside">
+                <img src="../Assets/LogoNavbar.png" class="footerlogo">
+                <p class="footerslogan">Crafting Joy, One Breakfast at a Time.</p>
+                <p class="footermission">Vkellogg's, 2023.</p>
+            </div>
+            <div class="rightside">
+                <a>Company</a>
+                <a>Resources</a>
+                <a>Legal</a>
+                <p class="rightgrid">Blog</p>
+                <p class="rightgrid">Documentation</p>
+                <p class="rightgrid">Terms Of Service</p>
+                
+                <p class="rightgrid">Careers</p>
+                <p class="rightgrid">Papers</p>
+                <p class="rightgrid">Privacy Policy</p>
+                
+                <p class="rightgrid">Pricing</p>
+                <p class="rightgrid">Press Conference</p>
+                <p class="rightgrid">Cookies Policy</p>
+            </div>
+        </div>
+        <div class="misc">
+            <div class="lineup">
+                <div class="tm">@ 2024 Vkellogg's.</div>
+                <div class="socmed">
+                    <img src="../Assets/instagram.png" class="socpic"> 
+                    <img src="../Assets/twitter.png" class="socpic">  
+                </div>
+            </div>
+        </div>
+    </footer>–
+    <script src="../JS/category.js"></script>
+    <script>
+        document.querySelector('.burger').addEventListener('click', () => {
+            document.querySelector('.mobile-menu').classList.toggle('show');
+        });
+    </script>
+</body>
+
+</html>

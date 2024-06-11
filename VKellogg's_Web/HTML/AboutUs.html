@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VKelloggs</title>
+    <link rel="stylesheet" href="../CSS/AboutUsPage/AboutUsContent.css">
+    <link rel="shortcut icon" href="../Assets/LogoNavbar.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/Components/navbar.css">
+    <link rel="stylesheet" href="../CSS/Components/Footer.css">
+</head>
+<body>
+
+    <header>
+        <!-- Ini Bagian Navbar-->
+        <nav class="navbar">
+            <a href="Main.html"><img src="../Assets/LogoNavbar.png" class="logo"></a>
+            <div class="navigations">
+                <a href="Products.html" class="menu">Products</a>
+                <a href="AboutUs.html" class="menu">About Us</a>
+                <a href="Recipes.html" class="menu">Recipes</a>
+                <a href="ContactUs.html" class="menu">Contact Us</a>
+            </div>
+            <div class="burger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                </div>
+        </nav>
+        <div class="mobile-menu">
+            <a href="Products.html" class="menu">Products</a>
+            <a href="AboutUs.html" class="menu">About Us</a>
+            <a href="Recipes.html" class="menu">Recipes</a>
+            <a href="ContactUs.html" class="menu">Contact Us</a>
+        </div>
+    </header>
+    <main>
+        <div class = "content">
+            <div class="aboutusstockimage">
+                <img src="../Assets/AboutUsStockImage.png">
+            </div>
+            
+            <h2 class="title">About Us</h2>
+            
+            <div class="grid">
+                <div class = "aboutusgrid">
+                    <img src="../Assets/AboutUsLogo.png" class="AboutUsLogo" >
+                    <h3 class="TitleDesc"> Who We Are ? </h3>
+                    <p class="TextDesc">
+                        "VKellogg's is synonymous with uncompromising product quality. 
+                        With a legacy spanning over a century, our commitment to excellence in sourcing, manufacturing, and delivering breakfast foods and snacks remains unparalleled."
+                    </p>
+                </div>
+                
+                <div class = "aboutusgrid">
+                    <img src="../Assets/History.png" class="AboutUsLogo" >
+                    <h3 class="TitleDesc"> Our History </h3>
+                    <p class="TextDesc">
+                        "VKellogg's traces its roots back to 1906 when Will Keith Kellogg founded the company in Battle Creek, Michigan, USA. 
+                        From its humble beginnings as a cereal manufacturer."
+                    </p>
+                </div>
+                
+                <div class = "aboutusgrid">
+                    <img src="../Assets/Our Vision.png" class="AboutUsLogo" >
+                    <h3 class="TitleDesc"> Our Vision </h3>
+                    <p class="TextDesc">
+                        "At VKellogg's, our vision is to be the global leader in providing nourishing and delicious breakfast foods and snacks that inspire healthy and fulfilling lifestyles. "
+                    </p>
+                </div>
+                
+                <div class = "aboutusgrid">
+                    <img src="../Assets/Our Mission.png" class="AboutUsLogo" >
+                    <h3 class="TitleDesc"> Our Mission </h3>
+                    <p class="TextDesc">
+                        "Our mission at VKellogg's is to passionately create and deliver high-quality, nutritious breakfast foods and snacks that enrich lives and delight taste buds. "
+                        
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="parts">
+                <div class="leftside">
+                    <img src="../Assets/LogoNavbar.png" class="footerlogo">
+                    <p class="footerslogan">Crafting Joy, One Breakfast at a Time.</p>
+                    <p class="footermission">Vkellogg's, 2023.</p>
+                </div>
+                <div class="rightside">
+                    <a>Company</a>
+                    <a>Resources</a>
+                    <a>Legal</a>
+                    <p class="rightgrid">Blog</p>
+                    <p class="rightgrid">Documentation</p>
+                    <p class="rightgrid">Terms Of Service</p>
+                    
+                    <p class="rightgrid">Careers</p>
+                    <p class="rightgrid">Papers</p>
+                    <p class="rightgrid">Privacy Policy</p>
+                    
+                    <p class="rightgrid">Pricing</p>
+                    <p class="rightgrid">Press Conference</p>
+                    <p class="rightgrid">Cookies Policy</p>
+                    
+                </div>
+            </div>
+            <div class="misc">
+                <div class="lineup">
+                    <div class="tm">@ 2024 Vkellogg's.</div>
+                    <div class="socmed">
+                        <img src="../Assets/instagram.png" class="socpic"> 
+                        <img src="../Assets/twitter.png" class="socpic">  
+                    </div>
+                </div>                                          
+            </div>
+        </footer>
+        <script>
+            document.querySelector('.burger').addEventListener('click', () => {
+                document.querySelector('.mobile-menu').classList.toggle('show');
+            });
+        </script>
+    </body>
+</html>

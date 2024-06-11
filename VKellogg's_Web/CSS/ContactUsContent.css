@@ -1,0 +1,294 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; 
+}
+
+
+body{
+    margin:0;
+    padding:0;
+}
+
+main{
+    background-image: url("../Assets/BlurredContactUsStockImage.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10%;
+    z-index: -100;
+}
+
+
+
+.mainpart{ 
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.formbg{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 30%;
+    justify-content: center;
+    border-left: 3px solid #d12347;
+    border-top: 3px solid #d12347;
+    border-bottom: 3px solid #d12347;
+    border-radius: 20px 0px 0px 20px;
+    background-color: white;
+}
+
+.formcontent{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title{
+    padding-left: 10%;
+    padding-top: 5%;
+    text-align: left;
+    font-family: system-ui;
+    color: red;
+    font-size: 30px;
+}
+
+.form{
+    padding-left: 10%;
+    font-family: system-ui;
+    margin-right:0;
+} 
+
+.tag{
+    font-weight: bold;
+}
+
+.formname{
+    display: flex;
+    justify-content: space-between;
+}
+
+input[placeholder]{
+    font-family: system-ui;
+    opacity: 0.5;
+}
+
+.fill{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding-left: 20px;
+    border: 2px solid #d12347;
+    text-align: left;
+    position: relative;
+    margin-right: 25%;
+}
+
+.fill-first{
+    width: 200px;
+    height: 30px;
+    border-radius : 8px;
+    margin-right: 20px;
+    padding-left: 20px;
+    text-align: left;
+    border: 2px solid #d12347;
+}
+
+.inquiry{
+    margin-top: 20px;
+    font-family: system-ui;
+    margin-left: 20px;
+    padding: 8px;
+    border-radius: 6px;
+    border: 2px solid #d12347;
+    font-weight: bold;
+    color: #d12347;
+}
+
+
+
+button{
+    margin-top: 30px;
+    padding: 15px 60px;
+    border-radius: 10px;
+    font-family: system-ui;
+    font-weight: bold;
+    background-color: #d12347;
+    color: white;
+    border-style: none;
+}
+
+
+.mainbg{
+    zoom: 3;
+    margin-top: 10%;
+    width: 200px;
+    height: 230px;
+    object-fit: cover;
+    border-right: 1px solid #d12347;
+    border-top: 1px solid #d12347;
+    border-bottom: 1px solid #d12347;
+    border-radius: 0px 10px 10px 0px;
+    
+}
+
+footer{
+    margin-top: 0;
+}
+
+@media  screen and (max-width: 1440px) {
+    .mainbg{
+        width: 200px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .formbg{
+        width: 35%;
+    }
+    .formcontent{
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .formbg{
+        width: 55%;
+    }
+    .formcontent{
+        margin-right: 20px;
+    }
+
+    .mainbg{
+        width: 100px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .mainpart{
+        flex-direction: column;
+    }
+
+    .tag{
+        font-size: 20px;
+    }
+    .mainbg{
+        order:-1;
+        margin-top: 0;
+        border-style: none;
+        width: 100%;
+    }
+
+    .formbg{
+        width:inherit;
+        height: 100%;
+        border-style: none;
+        margin:0;
+        padding-bottom: 10%;
+    }
+
+    form{
+        margin-left: 20%;
+    }
+
+    
+    .formname{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #last-name{
+         margin-top: 20px;
+    }
+
+    .fill,.fill-first{
+        width: 290px;
+        font-size: 15px;
+        height: 40px;
+    }
+
+
+    button{
+        margin-left: 12%;
+    }
+
+    main{
+        padding-bottom: 0;
+    }
+    .title{
+        padding-left:0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    
+    .mainpart{
+        flex-direction: column;
+    }
+
+    .mainbg{
+        order:-1;
+        margin-top: 0;
+        border-style: none;
+    }
+
+    .formbg{
+        width:inherit;
+        height: 100%;
+        border-style: none;
+        margin:0;
+        padding-bottom: 10%;
+    }
+
+
+    .formname{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #last-name{
+         margin-top: 20px;
+    }
+
+    .fill,.fill-first{
+        width: 290px;
+    }
+
+    .fill-first, .fill{
+        font-size: 12px;
+    }
+
+    button{
+        margin-left: 20%;
+    }
+
+    main{
+        padding-bottom: 0;
+    }
+
+    form{
+        margin-left: 0;
+    }
+
+    .inquiry{
+        margin-left: 10px;
+    }
+}
+
+

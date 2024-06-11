@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VKelloggs</title>
+    <link rel="stylesheet" href="../CSS/Components/navbar.css">
+    <link rel="shortcut icon" href="../Assets/LogoNavbar.png" type="image/x-icon">
+    <!-- css Per Sub Div/ sections -->
+    <link rel="stylesheet" href="../CSS/mainpage/MainContent.css">
+    <link rel="stylesheet" href="../CSS/mainpage/bestrecipes.css">
+    <link rel="stylesheet" href="../CSS/Components/Footer.css">
+</head>
+<header>
+    <!-- Ini Bagian Navbar-->
+    <nav class="navbar">
+        <a href="Main.html"><img src="../Assets/LogoNavbar.png" class="logo"></a>
+        <div class="navigations">
+            <a href="Products.html" class="menu">Products</a>
+            <a href="AboutUs.html" class="menu">About Us</a>
+            <a href="Recipes.html" class="menu">Recipes</a>
+            <a href="ContactUs.html" class="menu">Contact Us</a>
+        </div>
+        <div class="burger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            </div>
+    </nav>
+    <div class="mobile-menu">
+        <a href="Products.html" class="menu">Products</a>
+        <a href="AboutUs.html" class="menu">About Us</a>
+        <a href="Recipes.html" class="menu">Recipes</a>
+        <a href="ContactUs.html" class="menu">Contact Us</a>
+    </div>
+<main>
+
+    <!-- bridging di maindisplay, dikasih tambahan, kaya kasih about us, terus more detailnya nanti di arahin lagi, 
+        ilustrai product ngeliat dari behance, 
+        main itu harusnya isinya semuanya -->
+
+    <div class="maindisplay">
+        <div class="td1">
+            <p class="bestsellertitle">OUR BEST SELLER'S</p>
+            <p class="t1">Vkellogg's Copops</p>
+            <p class="d1">VKellogg's Copops is a favorite among consumers for its irresistible taste, satisfying crunch, and timeless appeal. 
+                Its unique combination of sweet flavor and airy texture makes it a beloved choice for breakfast or snacking. With a reputation 
+                for quality and consistency, VKellogg's Copops continues to capture the hearts and taste buds of consumers worldwide, 
+                solidifying its position as a top-selling favorite in the cereal aisle.
+            </p>
+            <!-- <button type="button" class="clickhere"><a href="recipes.html">Click Here </a></button> -->
+        </div>
+        <img src="../Assets/copops.png" class="bestproduct"> 
+    </div>
+    <div class="bestrecipes">
+        <h1 class="bestrecipetitle">Best Recipes</h1>
+        <div class="recipesgrid">
+            <div class="grid">
+                <img src="../Assets/MayoCheeseCake.png" class="gridimage">
+                <div class="gridtd">
+                    <p class="gridtitle"> Mayo CornFlakes Sandwich</p>
+                    <p class="griddesc">
+                        <b>Serving Size: </b> 
+                        <br>
+                        1 plates
+                        <br><br>
+                        <b>Preparation Time: </b> 
+                        <br>
+                        < 45 minutes
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <img src="../Assets/CornFlakeTarts.png" class="gridimage">
+                <div class="gridtd">
+                    <p class="gridtitle"> Cornflake Tarts</p>
+                    <p class="griddesc">
+                        <b>Serving Size: </b> 
+                        <br>
+                        1 plates
+                        <br><br>
+                        <b>Preparation Time: </b> 
+                        <br>
+                        < 45 minutes
+                    </p>
+                </div>
+            </div>
+                <div class="grid">
+                    <img src="../Assets/ChocoPopsPillow.png" class="gridimage">
+                    <div class="gridtd">
+                        <p class="gridtitle"> ChocoPops Pillow</p>
+                        <p class="griddesc">
+                            <b>Serving Size: </b> 
+                            <br>
+                            1 plates
+                            <br><br>
+                            <b>Preparation Time: </b> 
+                            <br>
+                            < 45 minutes
+                        </p>
+                    </div>
+                </div> 
+                    <div class="grid">
+                        <img src="../Assets/AlmondandPoppySeadLoaf.png" class="gridimage">
+                        <div class="gridtd">
+                            <p class="gridtitle"> Almond Poppy Seadloaf</p>
+                            <p class="griddesc">
+                                <b>Serving Size: </b> 
+                                <br>
+                                1 plates
+                                <br><br>
+                                <b>Preparation Time: </b> 
+                                <br>
+                                < 45 minutes
+                            </p>
+                        </div>
+            </div>
+          
+</main>
+<footer>
+    <div class="parts">
+        <div class="leftside">
+            <img src="../Assets/LogoNavbar.png" class="footerlogo">
+            <p class="footerslogan">Crafting Joy, One Breakfast at a Time.</p>
+            <p class="footermission">Vkellogg's, 2023.</p>
+        </div>
+        <div class="rightside">
+            <a>Company</a>
+            <a>Resources</a>
+            <a>Legal</a>
+            <p class="rightgrid">Blog</p>
+            <p class="rightgrid">Documentation</p>
+            <p class="rightgrid">Terms Of Service</p>
+            
+            <p class="rightgrid">Careers</p>
+            <p class="rightgrid">Papers</p>
+            <p class="rightgrid">Privacy Policy</p>
+            
+            <p class="rightgrid">Pricing</p>
+            <p class="rightgrid">Press Conference</p>
+            <p class="rightgrid">Cookies Policy</p>
+        </div>
+    </div>
+    <div class="misc">
+        <div class="lineup">
+            <div class="tm">@ 2024 Vkellogg's.</div>
+            <div class="socmed">
+                <img src="../Assets/instagram.png" class="socpic"> 
+                <img src="../Assets/twitter.png" class="socpic">  
+            </div>
+        </div>
+    </div>
+</footer>
+<script>
+    document.querySelector('.burger').addEventListener('click', () => {
+        document.querySelector('.mobile-menu').classList.toggle('show');
+    });
+</script>
+</html>
