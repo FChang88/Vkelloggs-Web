@@ -1,4 +1,4 @@
-This web is purposed for Human Computer Interaction LAB'S Assignment Project. The Name of this Project is Vkellog's (Kellogg's lookalike website). where it's daily and cereal products related theme.
+This web serves as an Assignment Project for Human Computer Interaction LAB Course.
 
 NOTES: This web is only made for the Front-End side only, or a HI-FI prototype
 
