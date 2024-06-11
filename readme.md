@@ -1,15 +1,18 @@
+<h1> Vkellogg's </h1>
+
 This web serves as an Assignment Project for Human Computer Interaction LAB Course.
 
 NOTES: This web is only made for the Front-End side only, or a HI-FI prototype
 
 The Pages that you can explore are:
 
-Main: Simple Landing Page, contains best seller product and best recipe
-Products: Displays Products with filter button, each for adult and child category respectively
-Recipes: Self-Explanatory, has best recipe section and lots of recipe
-Contact Us: Simple Form validation to retrieve customer's data, for further contact
-About Us: Self-Explantory, using grid to give the layout a consistent looks
-
+<ul>
+<li> Main: Simple Landing Page, contains best seller product and best recipe </li><br>
+<li> Products: Displays Products with filter button, each for adult and child category respectively </li><br>
+<li> Recipes: Self-Explanatory, has best recipe section and lots of recipe </li> <br>
+<li> Contact Us: Simple Form validation to retrieve customer's data, for further contact</li> <br>
+<li> About Us: Self-Explantory, using grid to give the layout a consistent looks</li><br>
+</ul>
 This website mostly concern at best user experience over design.
 The responsiveness was developed for screen that is mostly for screen below 1024, 768px, 568px screen, 
 
@@ -29,7 +32,7 @@ Products:
 Category.JS Script: 
 https://youtu.be/hEs3IL6UyvE?si=s91ef1JU-oJdqBke
 
-Recipea: 
+Recipes: 
 https://jcodonuts.com/id/en/menu/jcoffee
 
 
